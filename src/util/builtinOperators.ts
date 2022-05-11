@@ -14,7 +14,7 @@
 
 import * as rbac from '../rbac';
 import { ip } from './ip';
-import * as picomatch from 'picomatch';
+import picomatch from 'picomatch';
 
 // regexMatch determines whether key1 matches the pattern of key2 in regular expression.
 function regexMatch(key1: string, key2: string): boolean {
